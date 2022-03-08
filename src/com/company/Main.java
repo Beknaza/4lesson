@@ -55,7 +55,7 @@ public class Main {
                 heroesHealth[i] += dmg;
             }
             heroesHealth[4] -= dmg * gg;
-            System.out.println("Golem took damage " + dmg * gg);
+            System.out.println(" Golem took damage " + dmg * gg);
             break;
         }
         if (heroesHealth[4] <= 0) {
